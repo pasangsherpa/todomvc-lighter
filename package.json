@@ -1,0 +1,36 @@
+{
+  "name": "todomvc-lighter",
+  "version": "0.0.1",
+  "description": "Todo application implemented using lighter framework.",
+  "main": "todo.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pasangsherpa/todomvc-lighter.git"
+  },
+  "author": "Pasang Sherpa <pgyalzen@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pasangsherpa/todomvc-lighter/issues"
+  },
+  "homepage": "https://github.com/pasangsherpa/todomvc-lighter",
+  "keywords": [
+    "todomvc-lighter",
+    "todo",
+    "todomvc"
+  ],
+  "contributors": {
+    "name": "Pasang Sherpa",
+    "email": "pgyalzen@gmail.com"
+  },
+  "engines": [
+    "node >= 0.2.6"
+  ],
+  "dependencies": {
+    "lighter": "0.1.50"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pasangsherpa/todomvc-lighter/blob/master/LICENSE"
+    }
+  ]
+}

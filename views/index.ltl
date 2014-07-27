@@ -1,0 +1,23 @@
+html
+  head
+    meta(charset="utf-8")
+    title Backbone.js • TodoMVC
+    link(rel="stylesheet" href="/a.css?={cacheBust}")
+  body
+    section#todoapp
+      header#header
+        h1 todos
+        input#new-todo(placeholder="What needs to be done?" autofocus)
+      section#main
+        input#toggle-all(type="checkbox")
+        label(for="toggle-all") Mark all as complete
+        ul#todo-list
+      footer#footer
+    footer#info
+      p Double-click to edit a todo
+      p Written by
+        a(href="https://github.com/pasangsherpa") Pasang Sherpa
+      p Part of
+        a(href="http://todomvc.com") TodoMVC
+
+script(src="/a.js?={cacheBust}")
