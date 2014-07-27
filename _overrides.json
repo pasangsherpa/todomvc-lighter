@@ -1,0 +1,10 @@
+{
+  "dbs": {
+    "todomvc": {
+      "name": "todomvc",
+      "host": "127.0.0.1",
+      "user": "app",
+      "pass": "foobar"
+    }
+  }
+}
