@@ -25,6 +25,7 @@
     "node >= 0.2.6"
   ],
   "dependencies": {
+    "jquery": "^2.1.1",
     "lighter": "latest",
     "mysql": "2.4.1"
   },

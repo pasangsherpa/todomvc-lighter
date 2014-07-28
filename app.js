@@ -1,5 +1,8 @@
 var lighter = require('lighter')({
   httpPort: 8888,
+  dbs: {
+    todo: {}
+  },
   scripts: {
     '/a.js': [
       'bower_components/jquery/jquery.js',
