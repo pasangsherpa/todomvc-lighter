@@ -6,8 +6,8 @@ module.exports = Model.extend({
   // Default attributes for the todo
   // and ensure that each todo created has `title` and `completed` keys.
   fields: {
-    title: '',
-    completed: false
+    title: {type: 'string', default: ''},
+    completed: {type: 'boolean', default: false}
   },
 
   forceSync: true
